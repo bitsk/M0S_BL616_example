@@ -1,14 +1,14 @@
-name: build all
+name: build bl616
 
 on:
   push:
     branches: [ "master" ]
     paths: 
-    - '.github/workflows/build_all.yml'
+    - '.github/workflows/build_bl616.yml'
   pull_request:
     branches: [ "master" ]
     paths: 
-    - '.github/workflows/build_all.yml'
+    - '.github/workflows/build_bl616.yml'
 
 jobs:
   build:
